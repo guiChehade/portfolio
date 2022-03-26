@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-blue: #151121;
+  --main-blue: #1A1626;
+  --text-blue: #897EAF;
+  --highlight-blue: #78D1E1;
+  --soft-yellow: #E3DC80;
+  --soft-pink: #A85A8D;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 95vw;
+
+}

@@ -1,0 +1,28 @@
+footer{
+    background-color: #1A1626;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px 10px 30px;
+    border-top: solid 1px var(--soft-pink);
+    height: 50px;
+    width: 95vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-image: url(../../assets/bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer img{
+    width: 30px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    filter: invert(90%);
+}
+
+.footer img:hover{
+    transform: scale(1.2);
+}

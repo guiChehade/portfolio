@@ -1,0 +1,124 @@
+
+
+
+.projects{
+    /* padding: 70px 0 0 0; */
+    width: 100%;
+    /* height: fit-content; */
+    min-height: calc(100vh - 50px);
+    /* height: calc(100vh - 120px); */
+    background-color: var(--main-blue);
+    color: var(--soft-pink);
+    text-align: center;
+    transition: all 1s ease;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-image: url(../../assets/bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.list-projects h2{
+    padding: 10px;
+    font-weight: 400;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    color: var(--soft-pink);
+    letter-spacing: -1.5px;
+    transition: all 0.3s ease;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+
+.list-projects{
+    display: flex;
+    height: 60vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: all 0.3s ease;
+}
+
+.link-projects{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: #1a1327;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid var(--text-blue);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.item-projects:hover{
+    box-shadow: var(--text-blue) 0px 0px 5px, rgba(0, 0, 0, 0.5) 0px 10px 10px;
+}
+
+.image-projects{
+    width: fit-content;
+    height: 183px;
+    filter: brightness(85%);    
+    transition: all 0.3s ease;
+}
+
+.item-projects:hover .image-projects{
+    filter: brightness(100%);
+    transform: scale(1.02);
+}
+
+.item-projects:hover h2, .item-projects:hover p{
+    filter: brightness(150%);
+    transform: scale(1.03);
+}
+
+.item-projects p{
+    padding: 10px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 600px){
+    .item-projects{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .menu{
+        gap: 10px
+    }
+    .link-menu{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 410px){
+    .menu{
+        gap: 10px
+    }
+    .link-menu{
+        font-size: 0.8rem;
+    }
+}

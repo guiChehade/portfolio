@@ -1,0 +1,69 @@
+.about{
+    padding: 70px 0 0 0;
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1626;
+    color: var(--soft-pink);
+    text-align: center;
+    transition: all 1s ease;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    background-image: url(../../assets/bg4.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.about:hover .profile{
+    transform: scale(110%);
+    filter:saturate(100%);
+    filter: brightness(100%); 
+}
+
+
+h2, p{
+    color: var(--text-blue);
+}
+
+.about-text{
+    transition: all 0.5s ease;
+}
+
+.about:hover .about-text, .about:hover h2{
+    filter: brightness(150%);
+}
+
+
+.about-container{
+    margin: 0 auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-container{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile{
+    margin: 0px auto;
+    width: 250px;
+    border: 3px solid var(--text-blue);
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px var(--text-blue);
+    filter: saturate(80%);
+    filter: brightness(80%);
+    transition: all 1s ease;
+}
