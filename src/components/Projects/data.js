@@ -38,14 +38,14 @@ const data = [
       id: "5",
       name: "To-Do List",
       link: "https://guichehade.github.io/ToDo-List/",
-      description: "Um site simples para você aprender a usar o Bootstrap.",
+      description: "Uma lista de tarefas e integração com API externa, realizado em grupo.",
       image: todo,
     },
     {
       id: "6",
       name: "Manipulando DOM",
       link: "https://thiagomaurat.github.io/Checkpoint_Front/",
-      description: "Um site simples para você aprender a usar o Bootstrap.",
+      description: "Um site dinâmico feito em grupo para inserir destinos de viagens realizadas ou pretendidas.",
       image: manipulando_dom,
     },
   ];
